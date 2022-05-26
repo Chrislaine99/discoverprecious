@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="homemage.jpg">
+    <link href="bootstrap.min.css" rel="stylesheet">
+   <h2><p> FORMULAIRE D'INSCRIPTION </p></h2>
+    <form method="form-horizontal col-lg-6" action="www.eneam.bj">
+    <p><h4> Remplissez soigneusement le formulaire d'inscription. Une fois soumis, aucune correction ne pourra y être apportée.
+        <div class=" "></div><div class=""></div> </h4></p>
+        <fieldset>
+            <legend><b> Vos coordonnées</b></legend> 
+    <label>Nom:</label><input type="text" name="nom" size=40 maxlength="256"?value="votre nom"/></br>
+    <div class="form group"></div>
+
+     <label> Prénom:</label><input type="text" name="prénom" size="40" maxlenght="256" ?value="votre prénom"/><br/>
+     <div class="form group"></div>
+
+     <label> Mail:</label><input type="text" name="mail" size="40" maxlenght="256" ?value="votre mail"/><br/>
+     <div class="form group"></div>
+    <label> Code:</label><input type="password" name="code" size="40" ?maxlenght="6"/><br/>
+
+        <input type="radio" name="sexe" value="homme"/> Homme </br>
+        <input type="radio" name="sexe" value="femme"/> Femme </br>
+    <select name="pays" size="1">
+        <option value="Algérie">Algérie</option>
+        <option value=" Bénin"> Bénin </option>
+        <option value="Burkina-Faso"> Burkina-Faso </option>
+        <option value="Cap-Vert"> Cap-Vert </option>
+        <option value="Côte d'Ivoire"> Côte d'Ivoire</option>
+        <option value="Gambie"> Gambie</option>
+        <option value="Ghana"> Ghana</option>
+        <option value="Guinée"> Guinée</option>
+        <option value="Guine Bissau"> Guinée Bissau </option>
+        <option value="Libéria"> Libéria</option>
+        <option value="Mali"> Mali</option>
+        <option value="Mauritanie"> Mauritanie</option>
+        <option value="Niger"> Niger </option>
+        <option value="Nigéria"> Nigéria </option>
+        <opttion value="Sénégal"> Sénégal</opttion>
+        <option value="Sierra Leone"> Sierra Leone </option>
+        <option value="Togo"> Togo </option>
+    </select>
+    <br/>
+    </fieldset>
+    <fieldset>
+        <legend><b> Motivations </b></legend>
+<p> 
+<label for="filière"> Ecrivez le nom de la filière que vous désirez étudier:</label>
+<input type="text" name="filière" id="filière" value="GFC"/>
+</p>
+<p> 
+<label for="raisons"> Pourquoi pensez-vous mériter une place dans notre prestigieuse école?</label>
+<textarea name="raisons" id="raisons"></textarea>
+</p>
+    </fieldset>
+    <fieldset>
+        <legend><b> Envoyez nous votre photo</b></legend>
+        <input type="file" name="fichier" accept="image/jpeg"/>?
+        <input type="hidden" name=" MAX_FILE_SIZE" value="1000"/>
+        <br/><br/>
+        <input type="reset" value="Supprimer"/>
+        <input type="submit" value="Soumettre"/>
+    </fieldset>
+</form>
+<a href="Acceuil.html"> Revenir en Arriere</a>
+</body>
+</html>
